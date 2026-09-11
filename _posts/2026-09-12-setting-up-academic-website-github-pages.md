@@ -22,14 +22,16 @@ Which of these you'll use depends on which options you pick below.
 
 ## Terms you'll hear
 
-You already know what Git and GitHub are for; here's the specific vocabulary for this project, with an R analogy where it helps.
+Here's the specific vocabulary for this project, with an R analogy where it helps.
 
-- **Repository ("repo")** — the folder of website files, tracked by Git. Think of it like an `.Rproj` folder, but every save is versioned.
-- **Template** — a repo you copy to start your own, rather than fork. Like starting a new script from a lab template instead of editing someone else's live file.
+- **Repository ("repo")** — a folder of files and its version history tracked by Git (see below). Think of it like an `.Rproj` folder, but every save is versioned.
+- **Git** — software that keeps track of the changes in the files in a repo.
+- **GitHub** — A website that hosts copies of all the changes in your files in each repo, so that you can share them or download the same files to multiple computers. Widely used for collaboration on software development.
+- **Template** — a repo you copy to start your own, disconnected from the parent repo. Like starting a new script from a lab template instead of editing someone else's live file.
 - **Clone** — downloading a full copy of your GitHub repo onto your computer, with its Git history intact.
 - **Commit** — a labeled snapshot of the files you changed. The Git equivalent of saving a dated version of a manuscript.
 - **Push** — sending your commits from your computer up to GitHub, where they become visible to others (and to GitHub Pages).
-- **GitHub Pages** — GitHub's free hosting. Any time you push to your `username.github.io` repo, it rebuilds your live site automatically.
+- **GitHub Pages** — GitHub's free website hosting. Any time you push to your `<username>.github.io` repo, it rebuilds your live site automatically.
 
 ## The five stages
 
