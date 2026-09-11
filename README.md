@@ -22,7 +22,7 @@ Additional tutorials for working with the Academic Pages template can be found a
 
 ## Running locally
 
-When you are initially working on your website, it is very useful to be able to preview the changes locally before pushing them to GitHub. To work locally we will use a Docker container to render and serve the website locally without dealing with all the dependency issues (this repo's Jekyll/Ruby dependencies are pinned to older versions to match GitHub Pages' production build, and are often incompatible with a very recent Ruby installed directly on your machine, especially on Windows):
+When you are initially working on your website, it is very useful to be able to preview the changes locally before pushing them to GitHub. It can take a while for GitHub to update your page, and you might find mistakes before you commit them. If you want to save work that you haven't finished and don't want to publish directly, you can commit it to a development branch and then once you've finished, merge it back into the main branch. To work locally we will use a Docker container to render and serve the website locally without dealing with all the dependency issues (this repo's Jekyll/Ruby dependencies are pinned to older versions to match GitHub Pages' production build, and are often incompatible with a very recent Ruby installed directly on your machine, especially on Windows):
 
 1. Clone the repository and make updates as detailed above.
 1. Install [Docker](https://www.docker.com/) (Docker Desktop on Mac/Windows).
