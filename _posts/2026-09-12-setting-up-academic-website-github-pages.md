@@ -11,13 +11,13 @@ Everything you need to install, clone, preview, and publish your own academic we
 
 ## Your toolkit
 
-Which of these you'll actually touch depends on which options you pick below — each step lists exactly which tools it needs.
+Which of these you'll use depends on which options you pick below.
 
 - **[GitHub account](https://github.com/join)** — your username becomes part of your site's address: `<your username>.github.io`.
 - **[Git](https://git-scm.com/downloads)** — the version-control engine underneath GitHub Desktop, RStudio's Git tab, and Git Bash. Installing it also gives you Git Bash, so you only need this one download.
 - **Git Bash** — a command line interface using Linux syntax bundled with Git.
-- **[GitHub Desktop](https://desktop.github.com/)** — an app with buttons for clone, commit, and push; one of three ways to move files between your computer and GitHub.
-- **[RStudio](https://docs.posit.co/ide/user/#rstudio-ide-oss-downloads)** — its Git tab and Terminal tab can stand in for GitHub Desktop or Git Bash and Docker Desktop entirely, if you'd rather not leave RStudio.
+- **[GitHub Desktop](https://desktop.github.com/)** *optional, only needed to avoid command line git* — an app with buttons for clone, commit, and push; one of three ways to move files between your computer and GitHub.
+- **[RStudio](https://docs.posit.co/ide/user/#rstudio-ide-oss-downloads)** *optional, only needed to avoid command line git* — its Git tab and Terminal tab can stand in for GitHub Desktop or Git Bash and Docker Desktop entirely, if you'd rather not leave RStudio.
 - **[Docker Desktop](https://www.docker.com/products/docker-desktop/)** — runs the site on your computer at `localhost:4000` so you can preview changes before they go live.
 
 ## Terms you'll hear
