@@ -8,15 +8,15 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-site_theme               : "mint" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
-title                    : "Katherine S. Lauck / Welcome"
+site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
+title                    : "Your Name / Site Title"
 title_separator          : "-"
-name                     : &name "Katherine S. Lauck"
-description              : &description "Katherine S. Lauck's academic portfolio"   # Update this with a general description of your site, this is the default if not overridden by a page
-url                      : https://katherinelauck.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
+name                     : &name "Your Name"
+description              : &description "Your Name's academic portfolio"   # Update this with a general description of your site, this is the default if not overridden by a page
+url                      : https://academicpages.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "katherinelauck/katherinelauck.github.io"
+repository               : "academicpages/academicpages.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
@@ -24,13 +24,13 @@ repository               : "katherinelauck/katherinelauck.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Katherine S. Lauck"
-  pronouns         : "they/them"  
+  name             : "Your Sidebar Name"
+  pronouns         : # example: "she/her"  
   bio              : "Short biography for the left-hand sidebar"
-  location         : "Uppsala, Sweden"
-  employer         : "Swedish University of Agricultural Sciences"
+  location         : "Earth"
+  employer         : "Red Brick University"
   uri              : # URL
-  email            : "katherinelauck@gmail.com" 
+  email            : "none@example.org" 
 
   # Academic websites
   academia         : # URL
@@ -143,7 +143,7 @@ facebook:
   username               :
   app_id                 :
   publisher              :
-og_image                 :  # Social media default site image
+og_image                 : og-image.png   # Social media default site image (lives in /images/)
 og_description           :  # Social media default site image description
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
